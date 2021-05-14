@@ -136,7 +136,20 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['junit'],
+    reporters: [
+        ['junit', {
+            outputDir: "./",
+            outputFileFormat: function() {
+                let currentDate = new Date();
+                let dateTime = currentDate.getFullYear() + '_' +
+                                currentDate.getMonth() + '_' +
+                                currentDate.getDay() + '_' +
+                                currentDate.getHours() + ':' +
+                                currentDate.getMinutes();
+                return `/results/results-${dateTime}.xml`
+            }
+        }],
+    ],
 
 
     

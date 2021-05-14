@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login and signup" timestamp="2021-05-14T15:49:42" time="20.371" tests="2" failures="1" errors="1" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login and signup"/>
+      <property name="capabilities" value="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk"/>
+      <property name="file" value="./test/specs/android.e2e.js"/>
+    </properties>
+    <testcase classname="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk.login and signup" name="login account" time="7.06">
+      <system-out><![CDATA[
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/56053261-4b96-4b5e-9e7e-bbf66407efef/click - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/8b4836d4-0482-4d61-80f0-7240060b79b5/clear - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/8b4836d4-0482-4d61-80f0-7240060b79b5/value - {"text":"test@test.com"}
+RESULT: {"text":"test@test.com"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/150377a2-b45f-42fc-b939-998c69a7e0d8/clear - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/150377a2-b45f-42fc-b939-998c69a7e0d8/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/b9313d3b-fa32-409c-a9bd-7ff72e906348/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk.login and signup" name="sign up account" time="13.31">
+      <failure/>
+      <error message="Can't call click on element with selector &quot;/android.view.ViewGroup[@content-desc=&quot;button-sign-up-container&quot;]/android.view.ViewGroup/android.widget.TextView&quot; because element wasn't found"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element/33d59174-bf32-4b3d-8e42-44e41c5e65ec/click - {}
+RESULT: {}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/element - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/fd0f8040-a70e-420a-95de-0d3b095da256/elements - {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"/android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: DELETE /session/fd0f8040-a70e-420a-95de-0d3b095da256 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Can't call click on element with selector "/android.view.ViewGroup[@content-desc="button-sign-up-container"]/android.view.ViewGroup/android.widget.TextView" because element wasn't found
+    at Context.<anonymous> (/Users/myjing/Documents/AppUI-AutoTest/test/specs/android.e2e.js:16:29)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

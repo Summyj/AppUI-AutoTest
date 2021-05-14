@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login and signup" timestamp="2021-05-14T15:37:45" time="9.27" tests="2" failures="2" errors="2" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login and signup"/>
+      <property name="capabilities" value="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app"/>
+      <property name="file" value="./test/specs/ios.e2e.js"/>
+    </properties>
+    <testcase classname="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app.login and signup" name="login account" time="4.629">
+      <failure/>
+      <error message="loginPage is not defined"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/2bc2e103-d699-44a0-be04-0fe91e390e5e/appium/app/launch - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+ReferenceError: loginPage is not defined
+    at Function.switchPage (/Users/myjing/Documents/AppUI-AutoTest/test/pageobjects/ios.base.page.js:23:27)
+    at Context.<anonymous> (/Users/myjing/Documents/AppUI-AutoTest/test/specs/ios.e2e.js:10:18)
+]]></system-err>
+    </testcase>
+    <testcase classname="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app.login and signup" name="sign up account" time="4.641">
+      <failure/>
+      <error message="loginPage is not defined"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/2bc2e103-d699-44a0-be04-0fe91e390e5e/appium/app/launch - {}
+RESULT: {}
+COMMAND: DELETE /session/2bc2e103-d699-44a0-be04-0fe91e390e5e - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+ReferenceError: loginPage is not defined
+    at Function.switchPage (/Users/myjing/Documents/AppUI-AutoTest/test/pageobjects/ios.base.page.js:23:27)
+    at Context.<anonymous> (/Users/myjing/Documents/AppUI-AutoTest/test/specs/ios.e2e.js:15:18)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>
