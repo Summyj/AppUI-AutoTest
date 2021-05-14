@@ -237,8 +237,23 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        if(error)
+        {
+            let currentDate = new Date();
+            let dateTime = currentDate.getFullYear() + '_' +
+                                currentDate.getMonth() + '_' +
+                                currentDate.getDay() + '_' +
+                                currentDate.getHours() + ':' +
+                                currentDate.getMinutes();
+            let image = driver.takeScreenshot();
+            let path = './results' + 'Screenshot_' + test.title + '_' + dateTime + '.png';
+            require('.fs').writeFile(path, image, 'base64', function(err) {
+                console.log(err);
+                console.log(test.title);
+            });
+        }
+    },
 
 
     /**
