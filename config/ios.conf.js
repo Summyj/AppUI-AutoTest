@@ -7,6 +7,7 @@ config.capabilities=[
         deviceName: "iPhone 11",
         automationName: "XCUITest",
         app: "/Users/vagrant/git/e2eRepo/AppUI-AutoTest/app/iOS-Simulator-NativeDemoApp-0.2.1.app"
+        // app: "/Users/usr/Documents/AppUI-AutoTest/app/iOS-Simulator-NativeDemoApp-0.2.1.app"
     }
 ];
 
