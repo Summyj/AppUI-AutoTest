@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login and signup" timestamp="2021-05-20T17:37:55" time="18.208" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login and signup"/>
+      <property name="capabilities" value="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk"/>
+      <property name="file" value="./test/specs/android.e2e.js"/>
+    </properties>
+    <testcase classname="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk.login and signup" name="login account" time="9.215">
+      <system-out><![CDATA[
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/cbc2e7df-3bce-4345-b3eb-db3c3a3ee424/click - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/2d73eb83-85c5-4ec1-a50b-5136f2f3d864/clear - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/2d73eb83-85c5-4ec1-a50b-5136f2f3d864/value - {"text":"test@test.com"}
+RESULT: {"text":"test@test.com"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/03124514-d601-4952-9ff2-e966014519ab/clear - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/03124514-d601-4952-9ff2-e966014519ab/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-LOGIN\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/7d3e45cb-a633-47ae-992f-3cb2f70fe7ba/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="emulator-5554.android.10.android-nativedemoapp-0_2_1_apk.login and signup" name="sign up account" time="8.993">
+      <system-out><![CDATA[
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"Login\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/f598e06a-be42-4c3d-9a98-1f061905dca8/click - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/elements - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-sign-up-container\"]/android.view.ViewGroup/android.widget.TextView"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/ee21bd91-4f1c-4e58-8891-14c0372ee053/click - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-email\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/2c272dee-ef89-4c92-893d-803585872eb1/clear - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/2c272dee-ef89-4c92-893d-803585872eb1/value - {"text":"test@test.com"}
+RESULT: {"text":"test@test.com"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-password\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/85570b84-6cbc-4c50-b064-62a2416b1243/clear - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/85570b84-6cbc-4c50-b064-62a2416b1243/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-repeat-password\"]"}
+RESULT: {"using":"xpath","value":"//android.widget.EditText[@content-desc=\"input-repeat-password\"]"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/80bab596-5cdb-4af6-b508-026d7cac9862/clear - {}
+RESULT: {}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/80bab596-5cdb-4af6-b508-026d7cac9862/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element - {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]/android.view.ViewGroup"}
+RESULT: {"using":"xpath","value":"//android.view.ViewGroup[@content-desc=\"button-SIGN UP\"]/android.view.ViewGroup"}
+COMMAND: POST /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f/element/4a1b6cc0-5cb1-4eee-9007-fdb945ce36eb/click - {}
+RESULT: {}
+COMMAND: DELETE /session/8104a111-c4b2-42f0-a32c-4db4d3aaeb5f - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

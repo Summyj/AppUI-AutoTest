@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="login and signup" timestamp="2021-05-20T17:27:00" time="22.502" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="login and signup"/>
+      <property name="capabilities" value="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app"/>
+      <property name="file" value="./test/specs/ios.e2e.js"/>
+    </properties>
+    <testcase classname="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app.login and signup" name="login account" time="10.148">
+      <system-out><![CDATA[
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"Login\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"Login\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/12000000-0000-0000-7E4A-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/elements - {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4B000000-0000-0000-7E4A-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4B000000-0000-0000-7E4A-000000000000/value - {"text":"test@test.com"}
+RESULT: {"text":"test@test.com"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-password\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-password\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4D000000-0000-0000-7E4A-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4D000000-0000-0000-7E4A-000000000000/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"LOGIN\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"LOGIN\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/42000000-0000-0000-7E4A-000000000000/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="iphone11.ios.14_0.ios-simulator-nativedemoapp-0_2_1_app.login and signup" name="sign up account" time="12.354">
+      <system-out><![CDATA[
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/appium/app/launch - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"Login\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeOther[@name=\"Login\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/12000000-0000-0000-AB4A-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/elements - {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Sign up\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/44000000-0000-0000-AB4A-000000000000/click - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeTextField[@name=\"input-email\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4B000000-0000-0000-AB4A-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4B000000-0000-0000-AB4A-000000000000/value - {"text":"test@test.com"}
+RESULT: {"text":"test@test.com"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-password\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-password\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4D000000-0000-0000-AB4A-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/4D000000-0000-0000-AB4A-000000000000/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-repeat-password\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeSecureTextField[@name=\"input-repeat-password\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/53000000-0000-0000-AB4A-000000000000/clear - {}
+RESULT: {}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/53000000-0000-0000-AB4A-000000000000/value - {"text":"Test123"}
+RESULT: {"text":"Test123"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element - {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"SIGN UP\"]"}
+RESULT: {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"SIGN UP\"]"}
+COMMAND: POST /session/3df045a8-bf91-4123-a8a7-2c507c4aab67/element/49000000-0000-0000-AB4A-000000000000/click - {}
+RESULT: {}
+COMMAND: DELETE /session/3df045a8-bf91-4123-a8a7-2c507c4aab67 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
