@@ -108,7 +108,7 @@ exports.config = {
     connectionRetryTimeout: 1200000,
     //
     // Default request retries count
-    connectionRetryCount: 3,
+    connectionRetryCount: 10,
     //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
