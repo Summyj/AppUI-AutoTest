@@ -11,3 +11,5 @@
 - 测试代码实践：Page Object
 - 语言：JavaScript
 
+详细教程请看系列文章：https://jmyblog.top/AppUI-AutoTest/
+
