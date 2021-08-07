@@ -10,6 +10,7 @@
 - CI: Bitrise
 - 测试代码实践：Page Object
 - 语言：JavaScript
+- IDE: VSCode
 
-详细教程请看系列文章：https://jmyblog.top/AppUI-AutoTest/
+详细教程请看 [系列文章](https://jmyblog.top/AppUI-AutoTest/)
 
